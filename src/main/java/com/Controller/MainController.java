@@ -59,16 +59,9 @@ public class MainController {
     public String updateForm(@PathVariable("productId") int pid,HttpServletRequest request, Model m ){
        Product product =  this.productDao.getProduct(pid);
        m.addAttribute("product",product);
-
         return "update";
 
     }
 
 
-    @RequestMapping("/about")
-    public  String about(){
-        return "about";
-
-
-    }
 }

@@ -1,0 +1,2 @@
+24-Feb-2025 16:34:22.917 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Feb-2025 16:34:26.616 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'spring'
